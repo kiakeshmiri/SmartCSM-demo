@@ -10,6 +10,8 @@ This project is a demo about the followings:
 - RxJs.
 - Anguilar Material responsive UI.
 - Observable subscription concepts.
+- class vs interface in ES6.
+- HttpClient 
 
 However this project is so small that does not make sense to build routing, lazy loading or NGRX. I tried to build a platform for lazy loading if needed in future. As you go through source, some concept may look too advanced for this scale of project but that was my intention to display coding skills.
 
