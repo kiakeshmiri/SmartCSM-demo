@@ -19,19 +19,19 @@ However this project is so small that does not make sense to build routing, lazy
 
 run 'npm run start', this will launch webapi server whicj is exposing 2 Get api by passinh games.json and participants.json without any manipulation.
 
-cd smartCSM-challange then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+cd 'smartCSM-challange/' then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
-cd smartCSM-challange then then run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+cd 'smartCSM-challange/' then then run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Build with ahead of time option
 
-cd smartCSM-challange then run `ng build --prod --aot` to execute build the application in production mode and enhance the performance by ahead of time compilation.
+cd 'smartCSM-challange/' then run `ng build --prod --aot` to execute build the application in production mode and enhance the performance by ahead of time compilation.
 
-This will generate the files in dist folder which later will be located by Weppi server (fastify) and will be served as static files. Navigate to `http://localhost:3000/`
+This will generate the files in dist folder which later will be located by Weppi server (fastify) and will be served as static files. 
 
-## run in production mode
+## Run in production mode
 
-RUN 'npm run start'
+run 'npm run start'. Navigate to `http://localhost:3000/`
 
