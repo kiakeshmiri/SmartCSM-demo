@@ -1,0 +1,28 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Game statistics</span>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-card>
+  <mat-list *ngFor="let stats of playerStats">
+    <mat-list-item >
+      <table style="width: 100%;">
+        <tr>
+          <td style="text-align: left; width: 50%;">{{stats.name1}}</td>
+          <td style="text-align: left; width: 50%;">{{stats.name2}}</td>
+        </tr>
+        <tr>
+          <td style="text-align: left;">{{stats.winnerScore}}</td>
+          <td style="text-align: left;">{{stats.looserScore}}</td>
+        </tr>
+      </table>
+
+    </mat-list-item>
+    <mat-divider></mat-divider>
+
+  </mat-list>
+</mat-card>
+<div style="text-align: center; margin-top: 20px;">
+    <button mat-button mat-dialog-close cdkFocusInitial>Ok</button>
+</div>
+
