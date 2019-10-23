@@ -23,7 +23,7 @@ While you are in root folder (smartCSM-demo), run npm install. This will install
 
 ## Development server
 
-run 'npm run start', this will launch webapi server whicj is exposing 2 Get api by passinh games.json and participants.json without any manipulation.
+run 'npm run start', this will launch webapi server which is exposing 2 Get api by passinh games.json and participants.json without any manipulation.
 
 cd 'smartCSM-challange/' then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
