@@ -1,4 +1,4 @@
-# SmartCSMChallange
+# SmartCSM Code Challange
 
 This project is a demo about the followings:
 
