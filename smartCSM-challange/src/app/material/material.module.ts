@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatTableModule, MatDialogModule, MatCardModule, MatToolbarModule, MatIconModule, MatExpansionModule, MatListModule } from '@angular/material';
-
+import { MatTableModule, MatDialogModule, MatCardModule, MatToolbarModule, MatListModule, MatButtonModule } from '@angular/material';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [],
   imports: [
+    FormsModule,
+    MatButtonModule,
     MatTableModule,
     MatDialogModule,
     MatToolbarModule,
@@ -14,6 +16,8 @@ import { MatTableModule, MatDialogModule, MatCardModule, MatToolbarModule, MatIc
     MatListModule
   ],
   exports: [
+    FormsModule,
+    MatButtonModule,
     MatTableModule,
     MatDialogModule,
     MatToolbarModule,

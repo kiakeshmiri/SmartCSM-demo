@@ -5,6 +5,7 @@ import { AppComponent, ModalDialog } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { HttpClientModule } from '@angular/common/http';
+import { MatTableModule, MatDialogModule, MatToolbarModule, MatCardModule, MatListModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -13,9 +14,9 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   entryComponents: [ModalDialog],
   imports: [
+    MaterialModule,
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialModule,
     HttpClientModule
   ],
   providers: [],

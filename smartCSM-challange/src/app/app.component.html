@@ -1,4 +1,4 @@
-<mat-toolbar color="primary">
+<mat-toolbar color="accent">
   <mat-toolbar-row>
     <img src='./assets/smartcsm1200.png' />
   </mat-toolbar-row>
@@ -26,12 +26,12 @@
       <ng-container matColumnDef="id">
         <th mat-header-cell *matHeaderCellDef> </th>
         <td mat-cell *matCellDef="let element"> <button mat-flat-button (click)="openDialog(element.id)"
-            color="accent">Select</button></td>
+            color="primary">Select</button></td>
       </ng-container>
 
 
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
       <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
     </table>
-  </div>
+</div>
 </mat-card>
